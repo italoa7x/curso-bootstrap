@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Criando layouts</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <p>paragrafo col 1</p>
+            </div>
+
+            <div class="col">
+                <p>paragrafo col 2</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                coluna 1
+            </div>
+            <div class="col">
+                coluna 2
+            </div>
+            <div class="col">
+                coluna 3
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="vertical">
+        <div class="row">
+            <div class="col-6"></div>
+
+            <div class="col-6"></div>
+        </div>
+    </div>
+
+
+    <div class="container vertical">
+        <div class="row justify-content-center">
+            <div class="col-3"></div>
+            <div class="col-3 align-self-center"></div>
+            <div class="col-3"></div>
+            <div class="col-3 align-self-center"></div>
+        </div>
+    </div>
+
+
+    <div class="container vertical" id="offset">
+        <div class="row">
+            <div class="col-md-3 offset-md-1">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 offset-md-2">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 offset-md-3">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 offset-md-3">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 offset-md-2">
+
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-3 offset-md-1">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container" id="gutter">
+        <div class="row gx-1">
+            <div class="col">
+                <p>GX</p>
+            </div>
+
+            <div class="col">
+                <p>GX</p>
+            </div>
+        </div>
+
+
+        <div class="row gy-4">
+            <div class="col">
+                <p>GY</p>
+            </div>
+
+            <div class="col">
+                <p>GY</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <p>G</p>
+            </div>
+
+            <div class="col">
+                <p>G</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

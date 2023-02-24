@@ -1,0 +1,18 @@
+#container {
+    height: 50px;
+    border: 2px solid blue;
+}
+
+body{
+    background-color: #c1c1c1;
+}
+
+
+
+.impar{
+    background-color: black;
+}
+
+.par{
+    background-color: red;
+}
